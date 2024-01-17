@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;800&family=Poppins:wght@100;200;300;400;500;600&family=Quintessential&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quintessential", cursive, "Saysettha OT";
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  margin: 30px auto;
+  width: 350px;
+}
+.horizontal-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #333;
+  text-align: center;
+}
+.horizontal-menu li {
+  display: inline-block;
+}
+.horizontal-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+}

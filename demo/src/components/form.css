@@ -1,0 +1,25 @@
+label {
+  display: inline-block;
+  margin: 10px 0;
+}
+input {
+  border: 1px solid wheat;
+  border-radius: 2px;
+  display: block;
+  font-size: 13px;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+}
+.btn {
+  background-color: purple;
+  outline: none;
+  /* border-color: deeppink; */
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 10px 0 30px;
+  padding: 5px;
+  font-size: 13px;
+  width: 100%;
+}

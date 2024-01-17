@@ -1,0 +1,18 @@
+body {
+  font-family: "Quintessential", cursive, "Saysettha OT";
+}
+.item {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.item li {
+  background-color: cornsilk;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+  padding: 10px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  position: relative;
+}
